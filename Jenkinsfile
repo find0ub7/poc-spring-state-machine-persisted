@@ -8,7 +8,7 @@ node {
         echo 'Pull Request steps called'
         stage("PR Build") {
             sh "echo call maven clean install here"
-            sh "exit 1"
+            sh "exit 0"
 //            sh "echo Maven Version && /usr/share/maven/bin/mvn --version"
             //sh "echo Java Version && java -version"
         }
